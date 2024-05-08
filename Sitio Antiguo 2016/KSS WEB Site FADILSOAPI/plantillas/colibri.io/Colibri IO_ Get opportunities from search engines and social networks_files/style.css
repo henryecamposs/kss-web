@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/*
+*    -----------------------------------------------------------------------------------------------
+*    Theme Name: Startuply WP Child Theme
+*    Theme URI: http://startuplywp.com
+*    Template: startuply
+*    Description: Startuply - Multi-purpose Responsive Startup Theme Child theme 
+*	 Tags: white, light, dark, two-columns, right-sidebar, responsive-layout, custom-background, custom-header, custom-menu, flexible-header, theme-options, translation-ready
+*	 Text Domain: vivaco
+*    Author: Vivaco
+*    Author URI: http://vivaco.com
+*    License: GNU General Public License version 3.0
+*    License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*    Version: 2.0
+*/
+ 
+@import url("../startuply/style.css"); 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+div.vsc-service-icon{height:100px !important;}
+.navigation-brand .brand-logo{width:260px;}
+h2.post-title{font-size:28px;}
+h1.blog-site-title{font-size:34px;font-weight:bold;}
+.post-meta{display:none;}
+#feedback-controls{background-color:inherit !important;}
+#feedback{margin-bottom:0 !important;}
+#featuredTab li > a .tab-info .tab-desc{color:#fff;}
+.comments-count{display:none;}
+.share-box{display:none;}
+.entry-navigation .prev-post{display:none;}
+.nopaddingbottom .container{color:#999 !important;padding-bottom:0;}
+.nopaddingbottom h2{color:#666 !important;}
+.nopaddingbottom p{color:#666 !important;}
+.nopaddingbottom .btn-default{background-color: #fff;color:rgb(26, 198, 255);}
+#pricing-features .alt.nav-tabs{border:none !important}
+.headernopadding .container{padding-bottom:0;}
+.entry-title {text-transform:none !important; font-size:2.1em;font-weight:bold;margin-bottom:15px !important;}
+.entry-content .entry-title {font-size:1.3em;}
+.more-link{font-size:14px;font-weight:bold;}
+.onourblog .teaser_grid_container h2{text-align:left;font-size:22px;padding-right:20px;}
+#freetrial .container{padding-bottom:0 !important;}
+
+.navigation-header .navigation-bar > li.menu-item-512 a{ background:#f89406;color:#fff; padding: 10px 25px; line-height:20px !important;display: inline-block; opacity: 1; border-radius: 3px; }
+.navigation-header .navigation-bar > li.menu-item-512 a:Hover { opacity: .9; background:#f89406; color:#fff; }
+.fixmenu-clone li.menu-item-512 a{color: #fff !important;}
+.fixmenu-clone.navigation-header .navigation-bar > li.menu-item-512 a { color: #1AC6FF; }
+.fixmenu-clone.navigation-header .navigation-bar > li.menu-item-512 a:hover { color: #fff; }
+.fixmenu-clone.navigation-header .open .navigation-bar > li.menu-item-512 a { color: #1AC6FF; }
+.fixmenu-clone{z-index:1000;}
+
+.klaviyo_form_actions{text-align:left !important;}
+.klaviyo_submit_button{color:#fff !important; background: #f89406;margin-top:15px !important;border:none !important;padding: 10px 15px !important;}
+.klaviyo_wp_styling input[type=email],
+.klaviyo_wp_styling input[type=text]{padding: 10px !important;margin-top:15px !important;}
+
+.entry-content h2{font-size:34px;}
+.entry-content h3{font-size:24px;}
+
+.post-date{display:none !important;}
+.post{padding-left:10px !important; padding-right: 10px !important;}
+
+.blogs h1{
+box-sizing: border-box;
+color: rgb(54, 54, 54);
+display: block;
+font-family: arial, sans-serif;
+font-size: 48px !important;
+font-weight: bold !important;
+letter-spacing: -1px;
+line-height: 53px !important;
+margin: 0 17px 0 0 !important;
+padding-bottom: 20px !important;
+}
+
+.post .entry-content p,
+.post .entry-content ul li,
+.post .entry-content strong,
+.post .entry-content div{
+box-sizing: border-box !important;
+color: rgb(0, 0, 0) !important;
+font-family: arial, sans-serif !important;
+font-size: 19px !important;
+line-height: 30px !important;
+padding: 0 !important;
+}
+
+.post .entry-content p{
+margin-bottom: 18px !important;
+}
+.post .entry-content strong{
+font-weight: bold !important;
+}
+
+.post .entry-content h2{
+box-sizing: border-box !important;
+color: rgb(0, 0, 0) !important;
+display: block !important;
+font-family: arial, sans-serif !important;
+font-size: 36px !important;
+font-style: normal !important;
+font-weight: bold !important;
+line-height: 50px !important;
+margin: 30px 0 !important;
+padding: 0 !important;
+clear:both !important;
+}
+
+.post .entry-content h3{
+box-sizing: border-box !important;
+color: rgb(0, 0, 0) !important;
+display: block !important;
+font-family: arial, sans-serif !important;
+font-size: 30px !important;
+font-style: normal !important;
+font-weight: bold !important;
+line-height: 40px !important;
+margin: 15px 0 !important;
+padding: 0 !important;
+clear: both !important;
+}
+
+.post .entry-content h4{
+box-sizing: border-box !important;
+color: rgb(0, 0, 0) !important;
+display: block !important;
+font-family: arial, sans-serif !important;
+font-size: 24px !important;
+font-style: normal !important;
+font-weight: bold !important;
+line-height: 30px !important;
+margin: 10px 0 !important;
+padding: 0 !important;
+clear: both !important;
+}

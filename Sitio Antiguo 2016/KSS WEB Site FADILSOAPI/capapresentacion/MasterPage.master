@@ -1,0 +1,190 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>Bienvenidos a Kalixto Systems Solutions</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- BootStrap-->
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<!-- Plantilla personalizada-->
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="icon" href="favicon.ico" />
+
+	<!--Oswald Font -->
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+	<!-- home slider-->
+	<link href="css/pgwslider.css" rel="stylesheet" />
+	<link href="../css/kss_style.css" rel="stylesheet" media="screen" />
+	<link href="responsive.css" rel="stylesheet" media="screen" />
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+
+</head>
+<body>
+	<section id="header_area">
+		<div class="wrapper header">
+			<div class="clearfix header_top">
+				<div class="clearfix logo floatleft">
+					<a href="default.aspx">
+						<img class="shadowfilter" src="images/KssLogo.png" />
+						<span>Kalixto<span style="color: white; position: relative; top: 0px"> Systems Solutions</span></span>
+					</a>
+				</div>
+				<div id="capa-nuevasnoticias" class="clearfix sidebar floatright">
+					<div class="clearfix single_sidebar">
+						<div class="titulo">
+							<h2>Buenas Noticias</h2>
+						</div>
+						<ul>
+							<li><a href="#">Estamos trabajando en nuevas actualizaciones. </a></li>
+							<li><a href="#">Muy pronto la versión Android de KSS BigFOOd. </a></li>
+							<li><a href="#">KSS HotelSuite y la su versión Web HotelSite. </a></li>
+							<li><a href="#">KSS TheShopping, más estable que nunca. </a></li>
+							<li><a href="#">Kss BigFood: Pedidos a distancia. </a></li>
+						</ul>
+					</div>
+				</div>
+				<%--<div id="login-box" class="clearfix  login-box floatright">
+						<div class="datos">
+						<form>
+							<span class="label">Iniciar Sesión</span>
+							<input type="text" placeholder="Usuario" /><br />
+							<input type="password" placeholder="Contraseña" />
+							<input type="submit" />
+							<span><a href="" style="float:right">Olvidé mi Contraseña</a></span>
+						</form>
+					</div>
+					<div class="datos">
+						<span class="label">Bienvenido</span><span class="usuario"> Henry Campos</span><br />
+						<span class="label">Clientes:</span><span class="texto"> 10</span><br />
+						<span class="label">Técnicos:</span><span class="texto"> 03</span><br />
+						<span class="label">Pagos Pendientes:</span><span class="texto" style="float: left"> 03</span>
+						<span class="label">Mensajes:</span><span class="texto"> 2/5</span><br />
+						<form>
+							<a href="#" style="float: left"><span class="tipousuario">Distribuidor</span></a>
+							<a href="#" style="float: right">Cerrar Sesión</a>
+						</form>
+					</div>
+				</div>--%>
+				<div class="clearfix search floatright">
+					<form>
+						<input type="text" placeholder="Buscar" />
+						<input type="submit" />
+					</form>
+				</div>
+			</div>
+
+			<div class="header_bottom">
+				<nav>
+					<ul id="nav">
+						<li><a href="default.aspx">Inicio</a></li>
+						<li><a href="clientes.aspx">Clientes</a></li>
+						<li id="dropdown"><a href="productos.aspx">Productos</a>
+							<ul>
+								<li><a href="">KSS Talabartería 2016</a></li>
+								<li><a href="">KSS IRetail Qendra</a></li>
+								<li><a href="">Todos</a></li>
+							</ul>
+						</li>
+						<li id="dropdown2"><a href="distribuidores.aspx">Distribuidores</a>
+							<ul>
+								<li><a href="">Socio Comercial</a></li>
+								<li><a href="">Técnico Asociado</a></li>
+							</ul>
+						</li>
+						<li id="dropdown3"><a href="nosotros.aspx">Nosotros</a>
+							<ul>
+								<li><a href="">Visión</a></li>
+								<li><a href="">Ubicación</a></li>
+							</ul>
+						</li>
+						<li><a href="soporte.aspx">Soporte Técnico</a></li>
+						<li><a href="contactenos.aspx">Contáctenos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</section>
+
+	<section id="content_area" class="aligncenter">
+		<div class="clearfix wrapper main_content_area ">
+			<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+			</asp:ContentPlaceHolder>
+		</div>
+	</section>
+	<section id="footer_top_area">
+		<div class="clearfix wrapper footer_top ">
+			<div class="clearfix footer_top_container ">
+				<div id="kss-banner-otrosoftwareblack" class="clearfix floatright">
+					<img src="images/banner-otro-Software.png" />
+				</div>
+			</div>
+		</div>
+	</section>
+	<div id="barra-inferior">
+		<section id="footer_bottom_area">
+			<div class="clearfix wrapper footer_bottom">
+				<div class="clearfix copyright floatleft">
+					<p>Copyright © All rights reserved by <span>Kalixto Systems Solutions</span></p>
+				</div>
+				<div class="clearfix social floatright">
+					<ul>
+						<li><a class="tooltip" title="Facebook" target="_blank" href="https://www.facebook.com/kalixtosystemssolutions/?ref=bookmarks"><i class="fa fa-facebook-square"></i></a></li>
+						<li><a class="tooltip" title="Twitter" href=""><i class="fa fa-twitter-square"></i></a></li>
+						<li><a class="tooltip" title="Google+" href=""><i class="fa fa-google-plus-square"></i></a></li>
+						<li><a class="tooltip" title="LinkedIn" href=""><i class="fa fa-linkedin-square"></i></a></li>
+						<li><a class="tooltip" title="tumblr" href=""><i class="fa fa-tumblr-square"></i></a></li>
+						<li><a class="tooltip" title="Pinterest" href=""><i class="fa fa-pinterest-square"></i></a></li>
+						<li><a class="tooltip" title="RSS Feed" href=""><i class="fa fa-rss-square"></i></a></li>
+						<li><a class="tooltip" title="Sitemap" href=""><i class="fa fa-sitemap"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.tooltip').tooltipster();
+		});
+	</script>
+	<script type="text/javascript" src="js/selectnav.min.js"></script>
+	<script type="text/javascript">
+		selectnav('nav', {
+			label: '-Navigation-',
+			nested: true,
+			indent: '-'
+		});
+	</script>
+	<script src="js/pgwslider.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.pgwSlider').pgwSlider({
+
+				intervalDuration: 10000
+
+			});
+		});
+	</script>
+	<script type="text/javascript" src="js/placeholder_support_IE.js"></script>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	 <!-- jQuery -->
+	<%--<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>--%>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

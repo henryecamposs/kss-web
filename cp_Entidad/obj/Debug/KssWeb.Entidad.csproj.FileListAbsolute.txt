@@ -1,0 +1,5 @@
+D:\Proyectos KSS\KssWeb\cp_Entidad\bin\Debug\cp_Entidad.dll
+D:\Proyectos KSS\KssWeb\cp_Entidad\bin\Debug\cp_Entidad.pdb
+D:\Proyectos KSS\KssWeb\cp_Entidad\obj\Debug\cp_Entidad.dll
+D:\Proyectos KSS\KssWeb\cp_Entidad\obj\Debug\cp_Entidad.pdb
+D:\Proyectos KSS\KssWeb\cp_Entidad\obj\Debug\KssWeb.Entidad.csprojResolveAssemblyReference.cache

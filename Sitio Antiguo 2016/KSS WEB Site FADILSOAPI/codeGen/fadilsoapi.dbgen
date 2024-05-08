@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectDefinaton xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectFileName />
+  <GeneratorVersion>2.1</GeneratorVersion>
+  <ProjectName>fadilsoapi</ProjectName>
+  <LastGeneration>0001-01-01T00:00:00</LastGeneration>
+  <GenerationPath>C:\Users\KSS\Documents\CodeGenProjects</GenerationPath>
+  <CodeGenSettings>
+    <DefaultNamespace>fadilsoapi</DefaultNamespace>
+    <GenerateCustomizablePartial>false</GenerateCustomizablePartial>
+    <CodeGenPatternFile>%APP%\Patterns\NHibernate MapByCode\NHibernate MapByCode.dbpat</CodeGenPatternFile>
+    <SelectedPatterns>
+      <string>EntityObjectContext</string>
+      <string>Database Entity Objects</string>
+      <string>Database Entity Mapper</string>
+      <string>User Entity Mapper</string>
+      <string>User Entity Objects</string>
+      <string>Data Annotations Entity Objects</string>
+      <string>BaseEntity</string>
+      <string>VS2010 ClassProject</string>
+      <string>AppConfig</string>
+      <string>Iesi.Collections.dll</string>
+      <string>NHibernate.dll</string>
+    </SelectedPatterns>
+    <GenerateColumnsDescription>true</GenerateColumnsDescription>
+    <GenerateTablesForeignKeys>true</GenerateTablesForeignKeys>
+    <GenerateConstraintKeys>true</GenerateConstraintKeys>
+  </CodeGenSettings>
+  <DbSettions>
+    <DatabaseProvider>SQLServer</DatabaseProvider>
+    <DatabaseName>fadilsoapi</DatabaseName>
+    <ServerName>(local)</ServerName>
+    <UseSqlAuthentication>false</UseSqlAuthentication>
+    <SqlUsername />
+    <SqlPassword />
+    <ConnectTimeout>15</ConnectTimeout>
+    <LastFetch>0001-01-01T00:00:00</LastFetch>
+    <OracleUseSysdbaRole>false</OracleUseSysdbaRole>
+    <PrefixForTables />
+    <PrefixForViews>vw</PrefixForViews>
+    <SuffixForTables />
+    <SuffixForViews />
+    <IgnoredPrefixes>
+      <string>tbl_</string>
+      <string>tbl</string>
+      <string>vw_</string>
+      <string>vw</string>
+    </IgnoredPrefixes>
+    <IgnoredSuffixes>
+      <string>tbl</string>
+      <string>_tbl</string>
+      <string>_vw</string>
+      <string>vw</string>
+    </IgnoredSuffixes>
+  </DbSettions>
+  <RenamingOptions>
+    <UnderlineWordDelimiter>false</UnderlineWordDelimiter>
+    <RemoveUnderline>
+      <Enabled>false</Enabled>
+      <Properties>true</Properties>
+      <Tables>true</Tables>
+    </RemoveUnderline>
+    <CaseChange>
+      <Enabled>false</Enabled>
+      <Properties>true</Properties>
+      <Tables>true</Tables>
+    </CaseChange>
+    <CaseChangeMode>Capitalize</CaseChangeMode>
+  </RenamingOptions>
+</ProjectDefinaton>

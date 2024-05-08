@@ -1,0 +1,445 @@
+.k-loading-image
+{
+	background-image: url('/Content/images/loaders/blue.gif')!important;
+}
+
+.dash-navbar-top
+{
+	background-color: #1976D2;
+}
+
+	.dash-navbar-left .dropdown-menu li a:hover, .dash-navbar-top .navbar-nav .dropdown-menu li a:hover
+	{
+		background-color: #E3F2FD;
+	}
+
+.dash-navbar-left .dnl-nav li a:hover, .dash-navbar-left .dnl-nav li a:focus
+{
+	background-color: #E3F2FD;
+}
+
+.dash-navbar-left .dnl-nav li .dnl-sub-one li.active
+{
+	background-color: #2196F3;
+}
+
+	.dash-navbar-left .dnl-nav li .dnl-sub-one li.active > a, .dash-navbar-top .navbar-nav .dropdown-menu > li.active > a:hover, .dash-navbar-left .dnl-nav li .dnl-sub-one li.active a:hover
+	{
+		color: white;
+	}
+
+.dash-navbar-left .dnl-nav li .dnl-sub-one :hover, .dash-navbar-left .dnl-nav li .dnl-sub-one :focus
+{
+	background-color: #E3F2FD;
+}
+
+.dash-navbar-left .dnl-nav li .dnl-sub-two li a:hover, .dash-navbar-left .dnl-nav li .dnl-sub-two li a:focus
+{
+	background-color: #E3F2FD;
+}
+
+.k-grid .k-grouping-header, .k-grouping-header + .k-grid-toolbar
+{
+	background-color: #2196F3;
+}
+
+.k-grid-toolbar.k-header
+{
+	background-color: #2196F3;
+}
+
+.k-menu .k-state-active, .k-popup.k-context-menu.k-group .k-state-hover
+{
+	background-color: #E3F2FD;
+}
+
+.k-grid .k-state-hover, .k-grid .k-state-hover:hover
+{
+	background-color: #E3F2FD;
+}
+
+.k-state-hover, .k-state-hover:hover
+{
+	background-color: #E3F2FD;
+}
+
+.k-grid-pager .k-pager-numbers .k-state-selected
+{
+	border-top-color: #2196F3;
+	color: #2196F3;
+}
+
+a.nutcache-button
+{
+	background-color: #66BB6A;
+}
+
+a.nutcache-secondary-button
+{
+	background-color: #FFA726;
+}
+
+a.nutcache-cancel-button
+{
+	background-color: #9E9E9E;
+}
+
+a.nutcache-text-button
+{
+	color: #66BB6A;
+}
+
+a.nutcache-secondary-text-button
+{
+	color: #FFA726;
+}
+
+a.nutcache-grid-button
+{
+	background-color: #2196F3;
+	box-shadow: none;
+}
+
+	a.nutcache-grid-button:hover
+	{
+		background-color: #64B5F6;
+	}
+
+div.nutcache-upload-logo-button .k-upload-button
+{
+	background-color: #66BB6A;
+}
+
+	div.nutcache-upload-logo-button .k-upload-button:hover
+	{
+		background-color: #66BB6A;
+	}
+
+.button-circle.quick-action
+{
+	border-color: #FFA726;
+	color: #FFA726;
+}
+
+	.button-circle.quick-action:hover
+	{
+		border-color: #FFA726;
+		background-color: #FFA726;
+		color: white;
+	}
+
+.button-circle.quick-add
+{
+	background-color: #66BB6A;
+	border-color: #66BB6A;
+}
+
+.k-tabstrip .k-tabstrip-items .k-item.k-state-active
+{
+	border-bottom-color: #2196F3;
+}
+
+	.k-tabstrip .k-tabstrip-items .k-item.k-state-active:not(.k-state-disabled) .k-link
+	{
+		color: #2196F3;
+	}
+
+.bubble-count.information
+{
+	background-color: #FFA726;
+}
+
+.welcome-section-container .welcome-box-big .welcome-box-big-icon
+{
+	background-color: #2196F3;
+}
+
+	.welcome-section-container .welcome-box-big .welcome-box-big-icon .inner-circle
+	{
+		background-color: #2196F3;
+	}
+
+.welcome-section-container .welcome-box-small .welcome-box-small-icon .outer-circle
+{
+	background-color: #2196F3;
+}
+
+.welcome-section-container .welcome-box-small .welcome-box-small-icon
+{
+	color: #2196F3;
+}
+
+.k-tabstrip .k-tabstrip-items .k-item:not(.k-state-disabled):hover .k-link
+{
+	color: #2196F3;
+}
+
+.k-tabstrip-items .k-loading
+{
+	border-top-color: #2196F3;
+}
+
+div#reportlists-link-section > div:hover
+{
+	background-color: #E3F2FD;
+	border: 1px solid #E3F2FD;
+}
+
+.fc-toolbar
+{
+	background-color: #2196F3;
+}
+
+	.fc-toolbar .fc-button.fc-state-active
+	{
+		background-color: #64B5F6;
+	}
+
+	.fc-toolbar .fc-button.fc-state-hover
+	{
+		background-color: #64B5F6;
+	}
+
+.calendar-header-block-right span
+{
+	color: #2196F3;
+}
+
+.k-calendar .k-header
+{
+	background-color: #2196F3;
+}
+
+	.k-calendar .k-header .k-state-hover
+	{
+		background-color: #64B5F6;
+	}
+
+.k-calendar .k-footer .k-nav-today
+{
+	color: #2196F3;
+}
+
+.k-calendar td.k-state-selected
+{
+	background-color: #2196F3;
+}
+
+.k-calendar.nc-week-picker table.k-content tr:hover td
+{
+	background-color: #E3F2FD;
+}
+
+.k-calendar.nc-week-picker table.k-content tr td.k-state-selected, .k-calendar.nc-week-picker table.k-content tr td.k-state-selected ~ td
+{
+	background-color: #2196F3;
+}
+
+.timer-list-container .timer-box
+{
+	background-color: #1976D2;
+}
+
+.time_circles .action:hover
+{
+	color: #66BB6A;
+}
+
+.time_circles .save:hover
+{
+	color: #66BB6A;
+}
+
+.token-field .token
+{
+	background-color: #2196F3;
+}
+
+	.token-field .token:hover
+	{
+		background-color: #64B5F6;
+	}
+
+div.subscription-plan-row.header-row .current-plan-marker
+{
+	background-color: #FFA726;
+}
+
+div.subscription-plan-row.coming-soon .feature-column::after, div.subscription-plan-row.coming-soon .feature-check, div.subscription-plan-row.coming-soon .feature-check.nc-unlimited
+{
+	color: #64B5F6;
+}
+
+div.subscription-plan-row.new .feature-column::after, div.subscription-plan-row.new .feature-check, div.subscription-plan-row.new .feature-check.nc-unlimited
+{
+	color: #66BB6A;
+}
+
+.feature-check, .feature-check.nc-unlimited::before
+{
+	color: #2196F3;
+}
+
+.k-progressbar
+{
+	background-color: #E3F2FD;
+}
+
+	.k-progressbar .k-state-selected
+	{
+		background-color: #2196F3;
+	}
+
+.new-plan-box .header
+{
+	background-color: #2196F3;
+}
+
+.current-plan-box .header
+{
+	background-color: #64B5F6;
+}
+
+.nutcache-credit
+{
+	color: #2196F3;
+}
+
+.box-warning
+{
+	background-color: #E3F2FD;
+}
+
+.message-section-container .icon
+{
+	color: #2196F3;
+}
+
+.k-widget .trv-report-viewer .k-header
+{
+	background-color: #1976D2;
+}
+
+.trv-report-viewer .k-state-selected[role='menuitem'], .trv-report-viewer .k-state-hover, .trv-report-viewer li.k-item.k-state-default.k-state-hover, .trv-report-viewer .k-state-border-down, .trv-report-viewer li.k-item.k-state-hover, .trv-report-viewer li.k-item.k-state-hover:hover, .trv-report-viewer .k-state-hover > .k-link, .trv-report-viewer .k-menu .k-state-active
+{
+	background-color: #64B5F6;
+	border-color: #64B5F6;
+}
+
+.trv-report-viewer .trv-parameter-container .trv-parameter-title, .trv-report-viewer .trv-parameters-area-content, .trv-report-viewer .trv-parameter-value, .trv-report-viewer .trv-parameter-editor-available-values-multiselect .footer
+{
+	background-color: #2196F3;
+}
+
+.trv-report-viewer .k-item[role=menuitem] .k-item a.k-link:hover
+{
+	background-color: #E3F2FD;
+}
+
+.trv-report-viewer .trv-parameters-area-preview-button, .trv-report-viewer .trv-parameters-area-preview-button:active
+{
+	background-color: #66BB6A;
+	border-color: #66BB6A;
+}
+
+.inmplayer-list-item:hover
+{
+	background-color: #E3F2FD;
+}
+
+a.subscribe-now-button
+{
+	color: #FFA726;
+}
+
+.header-links-section-top-menu-div .renew-pro-button
+{
+	color: #FFA726;
+}
+
+.badge.pro-item
+{
+	color: #FFA726;
+}
+
+.nutcache-switch-container .bootstrap-switch .bootstrap-switch-first
+{
+	background-color: #66BB6A;
+}
+
+.nutcache-switch-container .bootstrap-switch .bootstrap-switch-second
+{
+	background-color: #FFA726;
+}
+
+.k-checkbox:checked + .k-checkbox-label:after
+{
+	border-color: #2196F3;
+	background-color: #2196F3;
+}
+
+.k-radio:checked + .k-radio-label:before
+{
+	border-color: #2196F3;
+}
+
+.k-radio:checked + .k-radio-label:after
+{
+	border-color: #2196F3;
+	background-color: #2196F3;
+}
+
+#project-board-list-popup-window .card-primary-fields, .k-window .k-window-titlebar, .attachment-infos-overlay
+{
+	background-color: rgba(33,150,243,0.7);
+}
+
+.user-company-permissions .user-company-permission.active
+{
+	color: #2196F3;
+}
+
+#billable-hours :not(.nc-disabled)#recalculate-billable-hours
+{
+	color: #2196F3;
+}
+
+	#billable-hours :not(.nc-disabled)#recalculate-billable-hours:hover
+	{
+		color: #64B5F6;
+	}
+
+.dashboard-title-warning
+{
+	background-color: #2196F3;
+}
+
+.timesheet-page .week-selector
+{
+	background-color: #2196F3;
+}
+
+.nutcache-text-button.primary
+{
+	color: #2196F3;
+}
+
+	.nutcache-text-button.primary:hover
+	{
+		color: #64B5F6;
+	}
+
+button.timesheet-navigation:hover
+{
+	background-color: #64B5F6;
+}
+
+.segmented-control > label.nc-limitedaccess:after
+{
+	background-color: #FFA726;
+}
+
+.segmented-control > label.nc-fullaccess:after
+{
+	background-color: #66BB6A;
+}

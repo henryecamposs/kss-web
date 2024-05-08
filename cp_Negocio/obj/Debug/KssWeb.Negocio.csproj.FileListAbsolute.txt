@@ -1,0 +1,9 @@
+D:\Proyectos KSS\KssWeb\cp_Negocio\bin\Debug\cp_Negocio.dll
+D:\Proyectos KSS\KssWeb\cp_Negocio\bin\Debug\cp_Negocio.pdb
+D:\Proyectos KSS\KssWeb\cp_Negocio\bin\Debug\cp_Datos.dll
+D:\Proyectos KSS\KssWeb\cp_Negocio\bin\Debug\cp_Entidad.dll
+D:\Proyectos KSS\KssWeb\cp_Negocio\bin\Debug\cp_Datos.pdb
+D:\Proyectos KSS\KssWeb\cp_Negocio\bin\Debug\cp_Entidad.pdb
+D:\Proyectos KSS\KssWeb\cp_Negocio\obj\Debug\KssWeb.Negocio.csprojResolveAssemblyReference.cache
+D:\Proyectos KSS\KssWeb\cp_Negocio\obj\Debug\cp_Negocio.dll
+D:\Proyectos KSS\KssWeb\cp_Negocio\obj\Debug\cp_Negocio.pdb

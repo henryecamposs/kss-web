@@ -1,0 +1,1 @@
+$(document).on("click",".floating-message-close-icon",function(){Nutcache.FloatingMessage.Close()});

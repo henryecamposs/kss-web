@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KssWeb.Datos", "cp_Datos\KssWeb.Datos.csproj", "{49387797-5AE8-434A-9D82-FF92B55A148E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KssWeb.Entidad", "cp_Entidad\KssWeb.Entidad.csproj", "{5D79A2F0-91EF-48DE-B5DE-5891A3364F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KssWeb.Negocio", "cp_Negocio\KssWeb.Negocio.csproj", "{7E9F7B94-441F-492C-9638-EE31ACD073CE}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KssWeb.Services", "http://localhost:6514", "{A93A8297-2967-47D6-92DD-598D100E1B72}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{5d79a2f0-91ef-48de-b5de-5891a3364f42}|cp_Entidad.dll;{7e9f7b94-441f-492c-9638-ee31acd073ce}|cp_Negocio.dll;{49387797-5AE8-434A-9D82-FF92B55A148E}|cp_Datos.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_6514"
+		Debug.AspNetCompiler.PhysicalPath = "C:\Users\kss2\Documents\Visual Studio 2012\WebSites\KssWeb.Services\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6514\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_6514"
+		Release.AspNetCompiler.PhysicalPath = "C:\Users\kss2\Documents\Visual Studio 2012\WebSites\KssWeb.Services\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6514\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\Users\kss2\Documents\Visual Studio 2012\WebSites\KssWeb.Services\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KssWeb.Site", "http://localhost:5289", "{01250270-BF0A-4A82-A861-31008C7A5DB2}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5289"
+		Debug.AspNetCompiler.PhysicalPath = "C:\Users\kss2\Documents\Visual Studio 2012\WebSites\KssWeb.Site\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5289\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5289"
+		Release.AspNetCompiler.PhysicalPath = "C:\Users\kss2\Documents\Visual Studio 2012\WebSites\KssWeb.Site\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5289\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "C:\Users\kss2\Documents\Visual Studio 2012\WebSites\KssWeb.Site\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49387797-5AE8-434A-9D82-FF92B55A148E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49387797-5AE8-434A-9D82-FF92B55A148E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49387797-5AE8-434A-9D82-FF92B55A148E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49387797-5AE8-434A-9D82-FF92B55A148E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D79A2F0-91EF-48DE-B5DE-5891A3364F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D79A2F0-91EF-48DE-B5DE-5891A3364F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D79A2F0-91EF-48DE-B5DE-5891A3364F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D79A2F0-91EF-48DE-B5DE-5891A3364F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9F7B94-441F-492C-9638-EE31ACD073CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9F7B94-441F-492C-9638-EE31ACD073CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9F7B94-441F-492C-9638-EE31ACD073CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9F7B94-441F-492C-9638-EE31ACD073CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93A8297-2967-47D6-92DD-598D100E1B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93A8297-2967-47D6-92DD-598D100E1B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93A8297-2967-47D6-92DD-598D100E1B72}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93A8297-2967-47D6-92DD-598D100E1B72}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{01250270-BF0A-4A82-A861-31008C7A5DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01250270-BF0A-4A82-A861-31008C7A5DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01250270-BF0A-4A82-A861-31008C7A5DB2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{01250270-BF0A-4A82-A861-31008C7A5DB2}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

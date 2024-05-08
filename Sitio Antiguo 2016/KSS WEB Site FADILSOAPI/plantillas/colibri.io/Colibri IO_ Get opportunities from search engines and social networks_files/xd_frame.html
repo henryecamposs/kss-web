@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)https://a.klaviyo.com/media/html/xd_frame.html?origin=https%3A%2F%2Fcolibri.io -->
+<html class=" clickberry-extension clickberry-extension-standalone"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><meta content="clickberry-extension-here"></head>
+  <body>
+    <script type="text/javascript" src="./json2.js"></script>
+    <script type="text/javascript" src="./jquery.1.7.1.js"></script>
+    <script type="text/javascript" src="./jquery.ba-postmessage.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        var origin = decodeURIComponent(location.search.replace('?origin=', ''));
+        
+        $.receiveMessage(function(e) {
+          var params = JSON.parse(e.data),
+              origin = e.origin,
+              headers = params.headers || {};
+          
+          $.ajax($.extend(params, {
+            success: function (response, textStatus, xhr) {
+              var data = {
+                response: response,
+                textStatus: textStatus,
+                params: params
+              };
+              $.postMessage(JSON.stringify(data), origin, parent);
+            },
+            headers: headers
+          }));
+        });
+        
+        // Let 'em know we're ready.
+        $.postMessage('GO', origin, parent);
+      });
+    </script>
+  
+</body></html>
